@@ -1,4 +1,4 @@
-import logo from "../assets/logo/logo.png"; // change to .svg if needed
+import logo from "../assets/logo/logo.png";
 
 function Logo({ width = "52px" }) {
   return (
