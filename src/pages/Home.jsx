@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Container, PostCard, Button, Stats } from "../components";
+import { Container, PostCard, Button, Stats, FeaturedPosts } from "../components";
 import appwriteService from "../appwrite/config";
 import { Link } from "react-router-dom";
 
@@ -93,6 +93,8 @@ function Home() {
 
       {/* Dynamic Stats */}
       <Stats totalPosts={postsData.total} posts={posts} />
+
+      <FeaturedPosts posts={posts} />
 
       {/* Posts */}
       <section className="bg-slate-50 py-16">

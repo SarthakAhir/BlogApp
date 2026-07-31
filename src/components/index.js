@@ -13,6 +13,7 @@ import PostCard from "./PostCard"
 import AuthLayout from "./AuthLayout";
 import Login from "./Login";
 import Stats from "./sections/Stats";
+import FeaturedPosts from "./sections/FeaturedPosts"
 
 export { 
         Header, 
@@ -29,5 +30,6 @@ export {
         PostCard,
         AuthLayout,
         Login,
-        Stats
+        Stats,
+        FeaturedPosts
     };
