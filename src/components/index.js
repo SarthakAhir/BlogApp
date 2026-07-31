@@ -12,6 +12,7 @@ import PostForm from "./post-form/PostForm";
 import PostCard from "./PostCard" 
 import AuthLayout from "./AuthLayout";
 import Login from "./Login";
+import Stats from "./sections/Stats";
 
 export { 
         Header, 
@@ -27,5 +28,6 @@ export {
         PostForm,
         PostCard,
         AuthLayout,
-        Login
+        Login,
+        Stats
     };
