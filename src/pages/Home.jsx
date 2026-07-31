@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Container, PostCard, Button, Stats, FeaturedPosts } from "../components";
+import { Container,  Button, Stats, FeaturedPosts, Newsletter } from "../components";
 import appwriteService from "../appwrite/config";
 import { Link } from "react-router-dom";
 
@@ -96,7 +96,7 @@ function Home() {
 
       <FeaturedPosts posts={posts} />
 
-      {/* Posts */}
+      {/* Posts
       <section className="bg-slate-50 py-16">
         <Container>
           <div className="mb-10">
@@ -115,7 +115,9 @@ function Home() {
             ))}
           </div>
         </Container>
-      </section>
+      </section> */}
+
+      <Newsletter />
     </>
   );
 }

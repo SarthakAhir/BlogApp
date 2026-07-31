@@ -14,6 +14,7 @@ import AuthLayout from "./AuthLayout";
 import Login from "./Login";
 import Stats from "./sections/Stats";
 import FeaturedPosts from "./sections/FeaturedPosts"
+import Newsletter from "./sections/Newsletter";
 
 export { 
         Header, 
@@ -31,5 +32,6 @@ export {
         AuthLayout,
         Login,
         Stats,
-        FeaturedPosts
+        FeaturedPosts,
+        Newsletter
     };
